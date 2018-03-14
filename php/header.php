@@ -1,5 +1,4 @@
 <?php
-
 	$header = '<!DOCTYPE html>
 	<html>
 	<head>
@@ -15,6 +14,5 @@
 	
 	</body>
 	</html>';
-
 echo $header;
 
