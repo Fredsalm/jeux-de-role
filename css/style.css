@@ -1,0 +1,15 @@
+.activ{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	border:1px solid;
+	
+}
+
+.hard{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	border:1px solid;
+	background-color: red;
+}
