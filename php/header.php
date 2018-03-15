@@ -1,4 +1,6 @@
+
 <!DOCTYPE html>
+
 	<html>
 	<head>
 		<meta charset="utf-8">
@@ -8,6 +10,7 @@
 
 		<title>Jeux de Rôle</title>
 	</head>
+
 	<body>
 
 		<header>
@@ -21,4 +24,5 @@
 				</div>
 		</header>	
 		
+
 
