@@ -1,5 +1,6 @@
 <?php
 
+
     function __autoload($class_name){
         require 'class/' . $class_name . '.php';
 }
@@ -23,4 +24,5 @@ var_dump ($heros[0]);
     $Monsteur[4]->fight($heros[0]);
 var_dump ($heros[0]);
     
+
 ?>    
