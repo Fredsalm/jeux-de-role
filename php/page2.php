@@ -14,11 +14,11 @@ include 'header.php';
                         <h4>Personnage 1:</h4>
                         <div class="display-inlabf">
                             <div class="display-inlab">
-                                <label for="nom">Nom :</label>
+                                <label for="nom">Nom*:</label>
                                 <input type="text" id="nom" />
                             </div>
                             <div class="display-inlab">
-                                <label for="type">Type : </label>
+                                <label for="type">Type*:</label>
                                 <select id="type">
                                     <option value="Magicien">Magicien</option> 
                                     <option value="Elfe" selected>Elfe</option>
@@ -32,11 +32,11 @@ include 'header.php';
                         <h4>Personnage 2:</h4>
                         <div class="display-inlabf">
                             <div class="display-inlab">
-                                <label for="nom">Nom :</label>
+                                <label for="nom">Nom*:</label>
                                 <input type="text" id="nom" />
                             </div>
                             <div class="display-inlab">
-                                <label for="type">Type : </label>
+                                <label for="type">Type*:</label>
                                 <select id="type">
                                     <option value="Magicien">Magicien</option> 
                                     <option value="Elfe" selected>Elfe</option>
@@ -50,11 +50,11 @@ include 'header.php';
                         <h4>Personnage 3:</h4>
                         <div class="display-inlabf">
                             <div class="display-inlab">
-                                <label for="nom">Nom :</label>
+                                <label for="nom">Nom*:</label>
                                 <input type="text" id="nom" />
                             </div>
                             <div class="display-inlab">
-                                <label for="type">Type : </label>
+                                <label for="type">Type*:</label>
                                 <select id="type">
                                     <option value="Magicien">Magicien</option> 
                                     <option value="Elfe" selected>Elfe</option>
@@ -73,11 +73,11 @@ include 'header.php';
                         <h4>Personnage 1:</h4>
                         <div class="display-inlabf">
                             <div class="display-inlab">
-                                <label for="nom">Nom :</label>
+                                <label for="nom">Nom*:</label>
                                 <input type="text" id="nom" />
                             </div>
                             <div class="display-inlab">
-                                <label for="type">Type : </label>
+                                <label for="type">Type*:</label>
                                 <select id="type">
                                     <option value="Magicien-noir">Mage-noir</option> 
                                     <option value="orque" selected>orque</option>
@@ -92,11 +92,11 @@ include 'header.php';
                         <h4>Personnage 2:</h4>
                         <div class="display-inlabf">
                             <div class="display-inlab">
-                                <label for="nom">Nom :</label>
+                                <label for="nom">Nom*:</label>
                                 <input type="text" id="nom" />
                             </div>
                             <div class="display-inlab">
-                                <label for="type">Type : </label>
+                                <label for="type">Type*:</label>
                                 <select id="type">
                                     <option value="Magicien-noir">Mage-noir</option> 
                                     <option value="orque" selected>orque</option>
@@ -111,11 +111,11 @@ include 'header.php';
                         <h4>Personnage 3:</h4>
                         <div class="display-inlabf">
                             <div class="display-inlab">
-                                <label for="nom">Nom :</label>
+                                <label for="nom">Nom*:</label>
                                 <input type="text" id="nom" />
                             </div>
                             <div class="display-inlab">
-                                <label for="type">Type : </label>
+                                <label for="type">Type*:</label>
                                 <select id="type">
                                     <option value="Magicien-noir">Mage-noir</option> 
                                     <option value="orque" selected>orque</option>

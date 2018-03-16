@@ -20,7 +20,7 @@
 				</div>
 				<div class="string-header">
 				
-					<button class="btn-header">Recommencer</button>
+					<a href="http://localhost:8888/php/index.php"><button class="btn-header">Recommencer</button></a>
 				</div>
 		</header>	
 		
