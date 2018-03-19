@@ -2,10 +2,26 @@
 include 'header.php';
 ?>
 <section class="section-2">
+    <audio src="../song/selection.mp3" autoplay loop></audio>
     <div class="baniere"></div>
     <h2>Créez vos équipes</h2>
     <div class="border-equipe"></div>
-    <form action="" method="post">
+    <div class="img-heros-monsters">
+        <div class="heros">
+            <div class="img-magicien img"></div>
+            <div class="img-elf img"></div>        
+            <div class="img-guerrier img"></div>
+            <div class="img-nain img"></div>
+        </div>
+        <div class="monsters">
+            <div class="img-magenoir img"></div>
+            <div class="img-orc img"></div>
+            <div class="img-gobelin img"></div>
+            <div class="img-ombrenoir img"></div>
+            <div class="img-sauron img"></div>
+        </div>
+    </div>
+    <form action="http://localhost:8888/php/page3.php" method="post">
         <div class="display-form">
             <div class="display-heros">
                 <h3>Les Héros</h3>                
@@ -131,9 +147,10 @@ include 'header.php';
         </div>       
         <div class="txt-btn">
             <p>Tous les champs munis d'une*sont obligatoires</p>
-            <button class="btn-sub" type="submit">Commencer</button>
+            <input class="btn-sub" type="submit" valaur="Commencer"/>
+            <!-- <button class="btn-sub" type="submit">Commencer</button> -->
         </div>
-    </form>	
+    </form>
 </section>
 <?php
 include 'footer.php';
