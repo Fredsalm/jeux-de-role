@@ -2,23 +2,58 @@
 include 'header.php';
 ?>
 <section class="section-2">
-    <audio src="../song/selection.mp3" autoplay loop></audio>
+    <audio src="../song/selection.mp3" autoplay loop controls></audio>
     <div class="baniere"></div>
     <h2>Créez vos équipes</h2>
     <div class="border-equipe"></div>
     <div class="img-heros-monsters">
         <div class="heros">
-            <div class="img-magicien img"></div>
-            <div class="img-elf img"></div>        
-            <div class="img-guerrier img"></div>
-            <div class="img-nain img"></div>
+            <div class="display-img">
+                <!-- <a class="link-img" href="#"> -->
+                    <div class="img-magicien img"></div>
+                    <div class="back-img1"></div>
+                    <!-- <div class="bulle">
+                        <span>Force: 100 - 200</span>
+                        <span>Points de vie: 400</span>
+                        <span>Spécialité: Mage Noir</span>
+                    </div> -->
+                <!-- </a> -->
+                <span class="name-img">Magicien</span>           
+            </div>
+            <div class="display-img">
+                <div class="img-elf img"></div> 
+                <span class="name-img">Elfe</span>
+            </div>       
+            <div class="display-img">
+                <div class="img-guerrier img"></div>
+                <span class="name-img">Guerrier</span>
+            </div>  
+            <div class="display-img"> 
+                <div class="img-nain img"></div>
+                <span class="name-img">Nain</span>
+            </div>
         </div>
         <div class="monsters">
-            <div class="img-magenoir img"></div>
-            <div class="img-orc img"></div>
-            <div class="img-gobelin img"></div>
-            <div class="img-ombrenoir img"></div>
-            <div class="img-sauron img"></div>
+            <div class="display-img"> 
+                <div class="img-magenoir img"></div>
+                <span class="name-img">Mage Noir</span>
+            </div>
+            <div class="display-img"> 
+                <div class="img-orc img"></div>
+                <span class="name-img">Orque</span>
+            </div>
+            <div class="display-img">
+                <div class="img-gobelin img"></div>
+                <span class="name-img">Gobelin</span>
+            </div>
+            <div class="display-img">
+                <div class="img-ombrenoir img"></div>
+                <span class="name-img">Ombre Noir</span>
+            </div>
+            <div class="display-img">
+                <div class="img-sauron img"></div>
+                <span class="name-img">Sauron</span>
+            </div>
         </div>
     </div>
     <form action="http://localhost:8888/php/page3.php" method="post">
@@ -38,8 +73,8 @@ include 'header.php';
                                 <select id="type">
                                     <option value="Magicien">Magicien</option> 
                                     <option value="Elfe" selected>Elfe</option>
-                                    <option value="guerrier">guerrier</option>
-                                    <option value="nain">nain</option>
+                                    <option value="guerrier">Guerrier</option>
+                                    <option value="nain">Nain</option>
                                 </select> 
                             </div>
                         </div> 
@@ -56,8 +91,8 @@ include 'header.php';
                                 <select id="type">
                                     <option value="Magicien">Magicien</option> 
                                     <option value="Elfe" selected>Elfe</option>
-                                    <option value="guerrier">guerrier</option>
-                                    <option value="nain">nain</option>
+                                    <option value="guerrier">Guerrier</option>
+                                    <option value="nain">Nain</option>
                                 </select>
                             </div>
                         </div>  
@@ -74,8 +109,8 @@ include 'header.php';
                                 <select id="type">
                                     <option value="Magicien">Magicien</option> 
                                     <option value="Elfe" selected>Elfe</option>
-                                    <option value="guerrier">guerrier</option>
-                                    <option value="nain">nain</option>
+                                    <option value="guerrier">Guerrier</option>
+                                    <option value="nain">Nain</option>
                                 </select>
                             </div> 
                         </div> 
@@ -95,11 +130,11 @@ include 'header.php';
                             <div class="display-inlab">
                                 <label for="type">Type*:</label>
                                 <select id="type">
-                                    <option value="Magicien-noir">Mage-noir</option> 
-                                    <option value="orque" selected>orque</option>
-                                    <option value="gobelin ">gobelin</option>
-                                    <option value="ombre-noire">ombre-noire</option>
-                                    <option value="sauron">sauron</option>
+                                    <option value="Magicien-noir">Mage Noir</option> 
+                                    <option value="orque" selected>Orque</option>
+                                    <option value="gobelin ">Gobelin</option>
+                                    <option value="ombre-noire">Ombre Noire</option>
+                                    <option value="sauron">Sauron</option>
                                 </select>
                             </div>  
                         </div>
@@ -114,11 +149,11 @@ include 'header.php';
                             <div class="display-inlab">
                                 <label for="type">Type*:</label>
                                 <select id="type">
-                                    <option value="Magicien-noir">Mage-noir</option> 
-                                    <option value="orque" selected>orque</option>
-                                    <option value="gobelin ">gobelin</option>
-                                    <option value="ombre-noire">ombre-noire</option>
-                                    <option value="sauron">sauron</option>
+                                    <option value="Magicien-noir">Mage Noir</option> 
+                                    <option value="orque" selected>Orque</option>
+                                    <option value="gobelin ">Gobelin</option>
+                                    <option value="ombre-noire">Ombre Noire</option>
+                                    <option value="sauron">Sauron</option>
                                 </select> 
                             </div> 
                         </div>
@@ -133,11 +168,11 @@ include 'header.php';
                             <div class="display-inlab">
                                 <label for="type">Type*:</label>
                                 <select id="type">
-                                    <option value="Magicien-noir">Mage-noir</option> 
-                                    <option value="orque" selected>orque</option>
-                                    <option value="gobelin ">gobelin</option>
-                                    <option value="ombre-noire">ombre-noire</option>
-                                    <option value="sauron">sauron</option>
+                                    <option value="Magicien-noir">Mage Noir</option> 
+                                    <option value="orque" selected>Orque</option>
+                                    <option value="gobelin ">Gobelin</option>
+                                    <option value="ombre-noire">Ombre Noire</option>
+                                    <option value="sauron">Sauron</option>
                                 </select>
                             </div> 
                         </div> 
@@ -146,8 +181,8 @@ include 'header.php';
             </div>
         </div>       
         <div class="txt-btn">
-            <p>Tous les champs munis d'une*sont obligatoires</p>
-            <input class="btn-sub" type="submit" valaur="Commencer"/>
+            <p>Tous les champs munis d'une * sont obligatoires</p>
+            <input class="btn-sub" type="submit" value="Commencer"/>
             <!-- <button class="btn-sub" type="submit">Commencer</button> -->
         </div>
     </form>
