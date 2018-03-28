@@ -200,26 +200,69 @@ header{
 	display: flex;
 }
 
+.heros .img{
+	border: 0.1rem solid rgb(255,215,0);
+	box-shadow: inset 0 0 2em rgba(100, 100, 100, 0), 0 0 3em yellow;
+}
+
+.monsters .img{
+	border: 0.1rem solid rgb(255,215,0);
+	box-shadow: inset 0 0 2em rgba(100, 100, 100, 0), 0 0 3em red;
+}
+
 .monsters{
 	display: flex;
 }
 
 .img{
-	margin: 1rem;
-	border: 0.1rem solid rgb(255,215,0);
-	box-shadow: inset 0 0 2em rgba(100, 100, 100, 0), 0 0 3em rgb(255,215,0);
+	margin: 1rem;	
 	border-radius: 1.5rem;
 	width: 10rem;
 	height: 12rem;
 }
 
+.display-img{
+	display: flex;
+	flex-direction: column;
+
+	-webkit-transition: all 1s ease; /* Safari et Chrome */
+	-moz-transition: all 1s ease; /* Firefox */
+	-ms-transition: all 1s ease; /* Internet Explorer 9 */
+	-o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease; 
+}
+
+.display-img:hover{
+	-webkit-transform:scale(1.25); /* Safari et Chrome */
+	-moz-transform:scale(1.25); /* Firefox */
+	-ms-transform:scale(1.25); /* Internet Explorer 9 */
+	-o-transform:scale(1.25); /* Opera */
+	transform:scale(1.25);
+}
+
+.name-img{
+	display: flex;
+	justify-content: center;
+}
+
 .img-magicien{
 	background-image: url('../../img/carte/magicien.jpg');
 	background-size: cover;
-	background-repeat: no-repeat;
-	
-	
+	background-repeat: no-repeat;	
 }
+
+.back-img{
+	background-image: url('../../img/carte/guerrier.jpg');
+}
+
+/* .img-magicien:hover{
+	width: 10rem;
+	height: 12rem;
+	border: 0.2 rem;
+	border-radius: 1.5rem;
+	background: black;
+	transform: translate3d(10,10,50);
+} */
 
 .img-elf{
 	background-image: url('../../img/carte/elfe.jpg');
@@ -228,7 +271,8 @@ header{
 }
 
 .img-guerrier{
-	background-image: url('../../img/carte/guerrier.jpg');
+	background-image: url('../../img/carte/guerrier1.png');
+	background-color: grey;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -240,7 +284,7 @@ header{
 }
 
 .img-magenoir{
-	background-image: url('../../img/carte/magenoir.jpg');
+	background-image: url('../../img/carte/blackmage.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -295,8 +339,48 @@ footer{
 	color: white;
 }
 
+
 .echo-fight ,tr,td{
 	border: solid 1px white;
 }
 
+.audio-section1{
+	display: flex;
+	align-items: flex-end;
+}
 
+
+/* .link-img{
+	color:#ccc;
+    text-shadow:0 -1px 0 black;  
+}
+
+.link-img:hover,.link-img:focus{
+	background:rgba(0,0,0,.4);
+	box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+
+.link-img .bulle{
+	position:absolute;  
+	margin-top:23px;
+	margin-left:-35px;   
+	color:#09c;
+	background:rgba(0,0,0,.9);
+	padding:15px;
+	border-radius:3px;
+	box-shadow:0 0 2px rgba(0,0,0,.5);   
+	transform:scale(0) rotate(-12deg); 
+	transition:all .25s;
+	opacity:0;       
+}
+
+.link-img:hover .bulle, .link-img:focus .bulle{
+	transform:scale(1) rotate(0);   
+	opacity:1;     
+}
+
+a{
+	list-style: none;
+	text-transform: none;
+	text-decoration: none;
+} */
