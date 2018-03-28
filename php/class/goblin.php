@@ -9,5 +9,5 @@
         protected $name;
     
     }
-    // echo rand(150, 200);
+
 ?>

@@ -295,5 +295,8 @@ footer{
 	color: white;
 }
 
+.echo-fight ,tr,td{
+	border: solid 1px white;
+}
 
 

@@ -5,24 +5,37 @@
         require 'class/' . $class_name . '.php';
 }
 
-$heros = [
-    new magician('Gandalf'),
-    new warrior('Garosh'),
-    new dwarf('Gimli'),
-    new elf('Legolas'),
+$Heros = [
+    new $_POST['type-h1']($_POST['nom-h1']),
+    new $_POST['type-h2']($_POST['nom-h2']),
+    new $_POST['type-h3']($_POST['nom-h3']),
+    
+ 
 ];
 
 $Monsteur = [
-    new orc('Cognedur'),
-    new blackMagus('Vador'),
-    new sauron('sauron'),
-    new goblin('papiéwc'),
-    new blackShadow('blackdead'),
+    new $_POST['type-m1']($_POST['nom-m1']),
+    new $_POST['type-m2']($_POST['nom-m2']),
+    new $_POST['type-m3']($_POST['nom-m3']),
+    
 ];
 
-var_dump ($heros[0]);
-    $Monsteur[4]->fight($heros[0]);
-var_dump ($heros[0]);
+$Monteur_dead;
+$Heros_dead;
+
+
+do{
+    for($i=0;$i<=count($heros);$i++){
+        for($y;$y<=count($Monsteur);$y++){
+
+        $heros[$i]->fight($Monsteur[$y]);
+
+        $Monsteur[$y]->fight($heros[$i]);
+        }
+    }
+} while ($_lifepoints == 0);
+    
+
     
 
 ?>    

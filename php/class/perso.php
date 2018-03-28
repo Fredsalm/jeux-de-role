@@ -12,9 +12,6 @@
         }
 
         public function __construct($name){
-            $this->_strength_max;
-            $this->_strength_min;
-            $this->_lifePoints;
             $this->name = $name;
         }
 
@@ -28,5 +25,6 @@
                 $this->_lifePoints = 0;
             }
         }
+
     }
 ?>
