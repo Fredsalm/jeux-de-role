@@ -72,7 +72,7 @@ include 'header.php';
                                 <label for="type">Type*:</label>
                                 <select name="h1" id="type-h1">
                                     <option value="Magicien">Magicien</option> 
-                                    <option value="Elfe" selected>Elfe</option>
+                                    <option value="Elfe">Elfe</option>
                                     <option value="guerrier">Guerrier</option>
                                     <option value="nain">Nain</option>
                                 </select> 
@@ -90,7 +90,7 @@ include 'header.php';
                                 <label for="type">Type*:</label>
                                 <select name="h2" id="type-h2">
                                     <option value="Magicien">Magicien</option> 
-                                    <option value="Elfe" selected>Elfe</option>
+                                    <option value="Elfe">Elfe</option>
                                     <option value="guerrier">Guerrier</option>
                                     <option value="nain">Nain</option>
                                 </select>
@@ -108,7 +108,7 @@ include 'header.php';
                                 <label for="type">Type*:</label>
                                 <select name="h3" id="type-h3">
                                     <option value="Magicien">Magicien</option> 
-                                    <option value="Elfe" selected>Elfe</option>
+                                    <option value="Elfe">Elfe</option>
                                     <option value="guerrier">Guerrier</option>
                                     <option value="nain">Nain</option>
                                 </select>
@@ -129,18 +129,11 @@ include 'header.php';
                             </div>
                             <div class="display-inlab">
                                 <label for="type">Type*:</label>
-
                                 <select name="m1" id="type-m1">
-                                    <option value="Magicien-noir">Mage-noir</option> 
-                                    <option value="orque" selected>orque</option>
-                                    <option value="gobelin ">gobelin</option>
-                                    <option value="ombre-noire">ombre-noire</option>
-                                    <option value="sauron">sauron</option>
-                                <select id="type">
-                                    <option value="Magicien-noir">Mage Noir</option> 
-                                    <option value="orque" selected>Orque</option>
+                                    <option value="Magicien-noir">Mage-Noir</option> 
+                                    <option value="orque">Orque</option>
                                     <option value="gobelin ">Gobelin</option>
-                                    <option value="ombre-noire">Ombre Noire</option>
+                                    <option value="ombre-noire">Ombre-Noire</option>
                                     <option value="sauron">Sauron</option>
                                 </select>
                             </div>  
@@ -156,18 +149,12 @@ include 'header.php';
                             <div class="display-inlab">
                                 <label for="type">Type*:</label>
                                 <select name="m2" id="type-m2">
-                                    <option value="Magicien-noir">Mage-noir</option> 
-                                    <option value="orque" selected>orque</option>
-                                    <option value="gobelin ">gobelin</option>
-                                    <option value="ombre-noire">ombre-noire</option>
-                                    <option value="sauron">sauron</option>
-                                <select id="type">
-                                    <option value="Magicien-noir">Mage Noir</option> 
-                                    <option value="orque" selected>Orque</option>
+                                    <option value="Magicien-noir">Mage-Noir</option> 
+                                    <option value="orque">Orque</option>
                                     <option value="gobelin ">Gobelin</option>
-                                    <option value="ombre-noire">Ombre Noire</option>
+                                    <option value="ombre-noire">Ombre-Noire</option>
                                     <option value="sauron">Sauron</option>
-                                </select> 
+                                </select>
                             </div> 
                         </div>
                     </div>
@@ -181,16 +168,10 @@ include 'header.php';
                             <div class="display-inlab">
                                 <label for="type">Type*:</label>
                                 <select name="m3" id="type-m3">
-                                    <option value="Magicien-noir">Mage-noir</option> 
-                                    <option value="orque" selected>orque</option>
-                                    <option value="gobelin ">gobelin</option>
-                                    <option value="ombre-noire">ombre-noire</option>
-                                    <option value="sauron">sauron</option>
-                                <select id="type">
-                                    <option value="Magicien-noir">Mage Noir</option> 
-                                    <option value="orque" selected>Orque</option>
+                                    <option value="Magicien-noir">Mage-Noir</option> 
+                                    <option value="orque">Orque</option>
                                     <option value="gobelin ">Gobelin</option>
-                                    <option value="ombre-noire">Ombre Noire</option>
+                                    <option value="ombre-noire">Ombre-Noire</option>
                                     <option value="sauron">Sauron</option>
                                 </select>
                             </div> 
