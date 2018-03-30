@@ -7,6 +7,7 @@ body{
 	font-size: 1.4rem;
 	margin:0;
 	padding: 0;
+	/* height: 100vh; */
 }
 
 header{
@@ -200,74 +201,71 @@ header{
 	display: flex;
 }
 
-.heros .img{
+/* .heros .img{
 	border: 0.1rem solid rgb(255,215,0);
-	box-shadow: inset 0 0 2em rgba(100, 100, 100, 0), 0 0 3em yellow;
+	box-shadow: inset 0 0 1rem rgba(100, 100, 100, 0), 0 0 1rem yellow;
 }
 
 .monsters .img{
 	border: 0.1rem solid rgb(255,215,0);
-	box-shadow: inset 0 0 2em rgba(100, 100, 100, 0), 0 0 3em red;
-}
+	box-shadow: inset 0 0 1rem rgba(100, 100, 100, 0), 0 0 1rem red;
+} */
 
 .monsters{
 	display: flex;
 }
 
-.img{
-	margin: 1rem;	
+/* .img{
+	margin: 1rem;
 	border-radius: 1.5rem;
 	width: 10rem;
 	height: 12rem;
-}
+} */
 
 .display-img{
 	display: flex;
 	flex-direction: column;
+	margin: 1.3rem;
 
 	-webkit-transition: all 1s ease; /* Safari et Chrome */
 	-moz-transition: all 1s ease; /* Firefox */
 	-ms-transition: all 1s ease; /* Internet Explorer 9 */
 	-o-transition: all 1s ease; /* Opera */
-	transition: all 1s ease; 
+	transition: all 1s ease;
 }
 
 .display-img:hover{
-	-webkit-transform:scale(1.25); /* Safari et Chrome */
-	-moz-transform:scale(1.25); /* Firefox */
-	-ms-transform:scale(1.25); /* Internet Explorer 9 */
-	-o-transform:scale(1.25); /* Opera */
-	transform:scale(1.25);
+	-webkit-transform:scale(1.4); /* Safari et Chrome */
+	-moz-transform:scale(1.4); /* Firefox */
+	-ms-transform:scale(1.4); /* Internet Explorer 9 */
+	-o-transform:scale(1.4); /* Opera */
+	transform:scale(1.4);
 }
 
 .name-img{
 	display: flex;
 	justify-content: center;
+	margin-top: 0.5rem;
 }
 
 .img-magicien{
 	background-image: url('../../img/carte/magicien.jpg');
 	background-size: cover;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
 
-.back-img{
-	background-image: url('../../img/carte/guerrier.jpg');
-}
+.magicien-back{
 
-/* .img-magicien:hover{
-	width: 10rem;
-	height: 12rem;
-	border: 0.2 rem;
-	border-radius: 1.5rem;
-	background: black;
-	transform: translate3d(10,10,50);
-} */
+}
 
 .img-elf{
 	background-image: url('../../img/carte/elfe.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.elf-back{
+
 }
 
 .img-guerrier{
@@ -277,10 +275,18 @@ header{
 	background-repeat: no-repeat;
 }
 
+.guerrier-back{
+
+}
+
 .img-nain{
 	background-image: url('../../img/carte/nain.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.nain-back{
+
 }
 
 .img-magenoir{
@@ -289,10 +295,18 @@ header{
 	background-repeat: no-repeat;
 }
 
+.magenoir-back{
+
+}
+
 .img-orc{
 	background-image: url('../../img/carte/orc.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.orc-back{
+
 }
 
 .img-gobelin{
@@ -301,16 +315,28 @@ header{
 	background-repeat: no-repeat;
 }
 
+.gobelin-back{
+
+}
+
 .img-ombrenoir{
 	background-image: url('../../img/carte/ombrenoir.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+.ombrenoir-back{
+
+}
+
 .img-sauron{
 	background-image: url('../../img/carte/sauron.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.sauron-back{
+
 }
 
 .section-3{
@@ -352,7 +378,7 @@ footer{
 
 /* .link-img{
 	color:#ccc;
-    text-shadow:0 -1px 0 black;  
+    text-shadow:0 -1px 0 black;
 }
 
 .link-img:hover,.link-img:focus{
@@ -361,22 +387,22 @@ footer{
 }
 
 .link-img .bulle{
-	position:absolute;  
+	position:absolute;
 	margin-top:23px;
-	margin-left:-35px;   
+	margin-left:-35px;
 	color:#09c;
 	background:rgba(0,0,0,.9);
 	padding:15px;
 	border-radius:3px;
-	box-shadow:0 0 2px rgba(0,0,0,.5);   
-	transform:scale(0) rotate(-12deg); 
+	box-shadow:0 0 2px rgba(0,0,0,.5);
+	transform:scale(0) rotate(-12deg);
 	transition:all .25s;
-	opacity:0;       
+	opacity:0;
 }
 
 .link-img:hover .bulle, .link-img:focus .bulle{
-	transform:scale(1) rotate(0);   
-	opacity:1;     
+	transform:scale(1) rotate(0);
+	opacity:1;
 }
 
 a{
@@ -384,3 +410,94 @@ a{
 	text-transform: none;
 	text-decoration: none;
 } */
+
+.cardBox{
+    perspective: 500px;
+    /* margin: 15px; */
+}
+
+.card{
+    position: relative;
+    /* background-color: palevioletred; */
+    /* width: 150px;
+	height: 150px; */
+	width: 10rem;
+    height: 12rem;
+    transform-style: preserve-3d;
+	transition: .5s ease;
+	/* border: 0.1rem solid rgb(255,215,0); */
+	/* box-shadow: inset 0 0 1rem rgba(100, 100, 100, 0), 0 0 1rem yellow; */
+	border-radius: 1.5rem;
+    /* box-shadow: 0 30px 30px rgba(0, 0, 0, .5); */
+}
+
+/* .card2{
+	position: relative;
+	width: 10rem;
+    height: 12rem;
+    transform-style: preserve-3d;
+	transition: .5s ease;
+	box-shadow: inset 0 0 1rem rgba(100, 100, 100, 0), 0 0 1rem red;
+	border-radius: 1.5rem;
+} */
+
+.card-front1, .card-front2, .card-back1, .card-back2{
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+	width: 10rem;
+	height: 12rem;
+    backface-visibility: hidden;
+}
+
+.card-front1{
+	border-radius: 1.5rem;
+	box-shadow: inset 0 0 1rem rgba(100, 100, 100, 0), 0 0 1rem yellow;
+}
+
+.card-front2{
+	border-radius: 1.5rem;
+	box-shadow: inset 0 0 1rem rgba(100, 100, 100, 0), 0 0 1rem red;
+}
+
+.card-back1{
+	background-color: yellow;
+	border: 0.2rem solid black;
+	border-radius: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	transform: rotateY(180deg);
+}
+
+.card-back2{
+	background-color: red;
+	border: 0.2rem solid black;
+	border-radius: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	transform: rotateY(180deg);
+}
+
+.cardBox:hover .card{
+    transform: rotateY(180deg);
+}
+
+.specBox{
+	display: flex;
+	flex-direction: column;
+}
+
+.spec{
+	font-size: 1rem;
+	color: black;
+	margin: 0.1rem;
+	margin-left: 0.8rem;
+}
+
+.display-logo{
+	outline: none;
+}

@@ -9,49 +9,200 @@ include 'header.php';
     <div class="img-heros-monsters">
         <div class="heros">
             <div class="display-img">
-                <!-- <a class="link-img" href="#"> -->
-                    <div class="img-magicien img"></div>
-                    <div class="back-img1"></div>
-                    <!-- <div class="bulle">
-                        <span>Force: 100 - 200</span>
-                        <span>Points de vie: 400</span>
-                        <span>Spécialité: Mage Noir</span>
-                    </div> -->
-                <!-- </a> -->
-                <span class="name-img">Magicien</span>           
+                <div class="cardBox">
+                    <div class="card">
+                        <!-- class magicien =  img -->
+                        <div class="img-magicien card-front1"></div>
+                        <div class="card-back1 magicien-back">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">100 - 200</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">400</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Spécialité:</span>
+                                <span class="spec">Mage noir</span>
+                            </div>
+                        </div>
+                    </div>                 
+                </div>     
+                <span class="name-img">Magicien</span>      
             </div>
             <div class="display-img">
-                <div class="img-elf img"></div> 
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="img-elf card-front1"></div> 
+                        <div class="card-back1 elf-back">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">0 - 300</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">500</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Spécialité:</span>
+                                <span class="spec">Orque</span>
+                            </div>    
+                        </div>
+                    </div>    
+                </div>
                 <span class="name-img">Elfe</span>
             </div>       
             <div class="display-img">
-                <div class="img-guerrier img"></div>
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="img-guerrier card-front1"></div>
+                        <div class="card-back1 guerrier-back">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">150 - 200</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">350</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Spécialité:</span>
+                                <span class="spec">Ombre noir</span>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
                 <span class="name-img">Guerrier</span>
             </div>  
             <div class="display-img"> 
-                <div class="img-nain img"></div>
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="img-nain card-front1"></div>
+                        <div class="card-back1 nain-back">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">100 - 200</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">400</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Spécialité:</span>
+                                <span class="spec">Mage noir</span>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
                 <span class="name-img">Nain</span>
             </div>
         </div>
         <div class="monsters">
             <div class="display-img"> 
-                <div class="img-magenoir img"></div>
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="img-magenoir card-front2"></div>
+                        <div class="magenoir-back card-back2">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">100 - 200</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">400</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Spécialité:</span>
+                                <span class="spec">Magicien</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <span class="name-img">Mage Noir</span>
             </div>
             <div class="display-img"> 
-                <div class="img-orc img"></div>
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="img-orc card-front2"></div>
+                        <div class="orc-back card-back2">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">200 - 200</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">400</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Spécialité:</span>
+                                <span class="spec">Nain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <span class="name-img">Orque</span>
             </div>
             <div class="display-img">
-                <div class="img-gobelin img"></div>
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="img-gobelin card-front2"></div>
+                        <div class="gobelin-back card-back2">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">50 - 200</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">250</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Spécialité:</span>
+                                <span class="spec">Guerrier</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <span class="name-img">Gobelin</span>
             </div>
             <div class="display-img">
-                <div class="img-ombrenoir img"></div>
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="img-ombrenoir card-front2"></div>
+                        <div class="ombrenoir-back card-back2">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">150 - 250</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">350</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Spécialité:</span>
+                                <span class="spec">Elfe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <span class="name-img">Ombre Noir</span>
             </div>
             <div class="display-img">
-                <div class="img-sauron img"></div>
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="img-sauron card-front2"></div>
+                        <div class="sauron-back card-back2">
+                            <div class="specBox">
+                                <span class="spec">Force:</span>
+                                <span class="spec">200 - 400</span>
+                            </div>
+                            <div class="specBox">
+                                <span class="spec">Point de vie:</span>
+                                <span class="spec">1000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <span class="name-img">Sauron</span>
             </div>
         </div>
